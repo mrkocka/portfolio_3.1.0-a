@@ -138,6 +138,17 @@ font-size: .9rem;
     width: 100%;
 }
 
+.thankyou .text{
+    padding: 2rem;
+}
+
+#change1{
+    order: 1;
+}
+
+#change2{
+    order: 2;
+}
 
 #pk{
     width: 100%;
