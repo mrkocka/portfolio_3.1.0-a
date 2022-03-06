@@ -111,7 +111,7 @@ body{
     background-color:white;
     color: black;
     box-shadow: 0 0 5px white, 0 0 10px white, 0 0 15px white;
-    font-weight: bold;
+    
 }
 
 /* About Section */
@@ -760,6 +760,14 @@ footer a {
 }
 
 
+.pageTitle p{
+    font-family:'Open Sans Condensed', sans-serif;
+    font-size: 1.3rem;
+}
+
+
+
+
 /*------------------Sütik (cookie) kezelése------------------------------*/
 
 .pageTitle{
@@ -780,6 +788,7 @@ footer a {
 }
 .Paragraph p{
     font-family:'Open Sans Condensed', sans-serif;
+    text-shadow: 1px 1px 2px black;
 }
 .Paragraph a{
     color: whitesmoke;
@@ -807,32 +816,75 @@ footer a {
 }
 
 
-/*------------------Services Page---------------------------------------------------------*/
+/*------------------Köszönettel Tartozom---------------------------------------------------------*/
 
-.wpListP{
-    margin-left: 2rem;
-}
- 
-.wpList li {
-        margin-left: 3rem;
+.thankyou{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+    margin-bottom: 8rem;
 }
 
-.ParagraphExtra{
-    width: 600px;
-   /*  outline: 1px solid whitesmoke; */
+
+
+.thankyou .text{
+   width: 50%;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-evenly;
+   padding-left:10%;
+}
+
+.thankyou .text h4{
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.thankyou .text p{
     font-family:'Open Sans Condensed', sans-serif;
+    font-size: 1.3rem;
+    text-shadow: 1px 1px 2px black;
+}
+
+.thankyouFooter{
+  display: flex;
+  align-items: center;
+}
+
+
+.thankyou .thankyouImg{
+    width: 50%;
+    display: flex;
+    justify-content: end;
     padding: 1rem;
 }
-.ParagraphExtra p{
-    font-family:'Open Sans Condensed', sans-serif;
-    font-size: 1.3rem;
+.thankyouFooter img{
+    width: 100px;
 }
-.money{
-    font-family:'Open Sans Condensed', sans-serif;
-    font-size: 1.3rem;
-    color:black;
-    text-shadow: 1px 1px 2px rgba(255, 0, 0, 0.486);
+
+
+.thankyoubtn{
+    margin: 2rem 0 1rem 0;
+    width: 20%;
+    background-color: rgba(255, 255, 255, 0.671);
 }
+
+
+.thankyoubtn a{
+   text-decoration: none;
+   color: black; 
+   font-size: 1.5rem;
+}
+
+
+#thimg{
+    width: 100%;
+    border-radius: 20px;
+   
+}
+
 
 /*-------------------adatvedelem-------------------*/
 .concepts{

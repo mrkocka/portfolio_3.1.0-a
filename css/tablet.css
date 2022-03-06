@@ -121,3 +121,25 @@
 .popup p{
 font-size: .9rem;
 } 
+
+
+/*------------------Köszönettel Tartozom---------------------------------------------------------*/
+
+/*------------------Köszönettel Tartozom---------------------------------------------------------*/
+
+.thankyou{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ 
+}
+
+.thankyou .text, .thankyou .thankyouImg{
+    width: 100%;
+}
+
+
+#pk{
+    width: 100%;
+    clip-path: none;
+}
