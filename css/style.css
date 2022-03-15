@@ -19,6 +19,8 @@ body{
     background-color: black;
 }
 
+
+
 /*Navbar*/
 
 .navbar{
@@ -222,7 +224,13 @@ body{
     display: flex;
     justify-content: center;
     flex-wrap: wrap; 
+    
    
+}
+
+.gallery a {
+    color: white;
+    text-decoration: none;
 }
 
 .selectButton{
@@ -443,37 +451,6 @@ text-shadow: 1px 1px 2px black;
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-/*----*/
-
-.box{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    width: 34.375rem;
-    height:27rem;
-    border: 1px solid black;
-    margin: 20px;
-    align-items: center;
-    text-align: justify;
-    padding: 1rem;
-    border-radius: 20px;
-    background: linear-gradient(to top, rgb(147,22,33)50%, #eeeeff 50%);
-    background-size: 100% 200%;
-    transition: all .8s;
-}
-
 .attention{
     color: whitesmoke;
     text-align: center;
@@ -486,34 +463,11 @@ text-shadow: 1px 1px 2px black;
     margin-top: 1%;
     margin-bottom: 2%;
 }
-.box:hover{
-    background-position: left bottom;
-    color: white;
-    border:none;
-    box-shadow: 0 0 20px rgb(147,22,33);
-}
-
-
-.box p{
-    font-family:'Open Sans Condensed', sans-serif;
-    font-weight: 700;
-    font-size: 1.4rem;
-}
-
-.box h3{
-    text-align: center;
-}
 
 .careIcon{
     font-size: 5.5rem;
     margin-bottom: 2%;
 }
-
-.headingsCard{
-    font-size: 4rem;
-    text-align: center;
-}
-
 
 
 .attention p{
@@ -521,15 +475,6 @@ text-shadow: 1px 1px 2px black;
     text-shadow: 1px 1px 2px black;
 }
 
-.box img{
-    width: 80px;
-    height: 80px;
-}
-
-.box .page1{
-    display: flex;
-    justify-content: center;
-}
 
 
 /*------------------------------------------Contact Section------------------------------------*/
@@ -880,7 +825,8 @@ footer a {
 
 
 #thimg{
-    width: 100%;
+    max-width: 100%;
+    height: auto;
     border-radius: 20px;
    
 }
