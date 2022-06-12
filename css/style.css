@@ -547,6 +547,7 @@ text-shadow: 1px 1px 2px black;
 footer{
     background-color:rgba(245, 245, 245, 0.158);
     color: whitesmoke;
+    margin-bottom: -1rem;
 }
 footer a {
     text-decoration: none;
@@ -673,6 +674,7 @@ footer a {
     background-image: url(../img/klavi_bg.jpg);
     background-repeat: no-repeat;
     background-size:cover;
+ 
 }
 
 #textSection{
@@ -686,7 +688,7 @@ footer a {
     align-items: center;
     flex-wrap: wrap;
     color: whitesmoke;
-    
+    margin-bottom: 3rem;
     
     
 }
@@ -925,42 +927,4 @@ justify-content: center;
 
 
 
-/*-------------------------------------------------------Blog Főoldal----------------------------------------------------------------------------------*/
-
-
-/*-----------csempe---------------------------------------------------------------------------*/
-#tiles{
-    color: white;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 3rem;
-    background-color: rgba(0, 255, 255, 0.082);
-    width: 80%;
-    margin: 2rem auto 2rem auto;
-    padding: 1rem;
-}
-
-#tiles span{
-    width: 15rem;
-    height: 8rem;
-    background-color: coral;
-    text-align: center;
-    border-radius: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 2.2rem;
-}
-#tiles a{
-    text-decoration: none;
-    color: white;
-}
-
-#tiles span:hover{
-        outline: 2px solid whitesmoke;
-        cursor: pointer;
-}
-
-/*------------------------Cikek---------------------------------------------------------------*/
 
