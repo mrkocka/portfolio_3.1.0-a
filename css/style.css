@@ -144,7 +144,7 @@ body{
     
 }
 
-#pic img{
+#avatar{
     margin-top: 3rem;
     width: 22.875rem;
     height: 25.938rem;
@@ -224,6 +224,7 @@ body{
     display: flex;
     justify-content: center;
     flex-wrap: wrap; 
+    gap: 1;
     
    
 }
